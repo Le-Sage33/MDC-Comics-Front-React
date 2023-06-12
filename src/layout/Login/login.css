@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(/src/Fonts/LATO/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Avengers;
+    src: url(/src/Fonts/AVENGERS/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+@font-face {
+    font-family: Shield;
+    src: url(/src/Fonts/STAR-SHIELD/Star\ Shield.ttf);
+}
+
+
+
+.formlogin {
+    text-align: center;
+    margin-top: 300px;
+    height: 100%;
+}

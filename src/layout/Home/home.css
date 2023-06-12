@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(/src/Fonts/LATO/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Avengers;
+    src: url(/src/Fonts/AVENGERS/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+@font-face {
+    font-family: Shield;
+    src: url(/src/Fonts/STAR-SHIELD/Star\ Shield.ttf);
+}
+
+
+/* Body */
+body {
+    font-family: Lato-Regular;
+    margin: 0 auto;
+    padding: 0 auto;
+    size-adjust: 100%;
+}
+h1, h2, h4 {
+    font-family: Avengers;
+    align-items: center;
+    text-align: center;
+}
+main {
+    margin-top: 200px;
+}
+h1 {
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+h2 {
+   font-size: 30px;
+    margin: 2px;   
+}
+h3 {
+    font-family: Avengers;
+    font-size: 2rem;
+    font-size: 30px;
+    margin-top: 5rem;
+}
+h4 {
+    text-align: center;
+    margin-top: 5px;
+    font-family: Shield;
+    font-size: 30px;
+}
+p {
+    
+    font-family: Lato-Regular;
+    margin-bottom: 2rem;
+}
+a {
+    color: rgb(203, 1, 1);
+    text-decoration: none; 
+}
+li {
+    list-style: none;
+}
+.btn-delete{
+    margin: 2rem;
+    font-family: Shield;
+    font-size: 30px;
+    color: white;
+    background:-webkit-linear-gradient(top,rgb(255, 166, 0) 30%,rgb(192, 4, 4) 70%);
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.btn-primary {
+    margin: 2rem;
+    font-family: Shield;
+    font-size: 30px;
+    color: white;
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 30%,rgb(33, 93, 163) 70%);
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.btn:hover {
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 40%,rgb(33, 93, 163) 60%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}

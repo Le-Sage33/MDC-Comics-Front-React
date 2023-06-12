@@ -1,0 +1,24 @@
+.Marvel {
+    margin: 2rem;
+    font-family: Shield;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(rgb(203, 1, 1),rgb(140, 140, 140));
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.Marvel:hover {
+    color: rgb(203, 1, 1);
+}
+/* Univers Marvel */
+.marvel img {
+    height: 250px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.hist-marvel img {
+    width: 250px;
+    height: 200px;
+}

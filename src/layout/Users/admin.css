@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(/src/Fonts/LATO/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Avengers;
+    src: url(/src/Fonts/AVENGERS/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+@font-face {
+    font-family: Shield;
+    src: url(/src/Fonts/STAR-SHIELD/Star\ Shield.ttf);
+}
+
+/* BODY */
+body {
+    font-family: Lato-Regular;
+    margin: 0 auto;
+    padding: 0 auto;
+    size-adjust: 100%;
+}
+h1, h2, h3 {
+    font-family: Avengers;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 40%,rgb(33, 93, 163) 20%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+h2 {
+   font-size: 30px;
+    padding-right: 10px;
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 40%,rgb(33, 93, 163) 60%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+h3 {
+    font-size: 2rem;
+    font-size: 30px;
+    margin-top: 5rem;
+}
+h4 {
+    text-align: center;
+    margin-top: 5px;
+    font-family: Shield;
+    font-size: 30px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: Lato-Regular;
+    margin-bottom: 2rem;
+}
+a {
+    color: rgb(203, 1, 1);
+    text-decoration: none; 
+}
+li {
+    list-style: none;
+}
+.btn-primary {
+    margin: 2rem;
+    font-family: Shield;
+    font-size: 30px;
+    color: white;
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 30%,rgb(33, 93, 163) 70%);
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.btn:hover {
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 40%,rgb(33, 93, 163) 60%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+
+/* HEADER */
+.title {
+    background-color: rgb(0, 0, 0);
+    
+}
+.logo-header {
+    display: flex;
+    height:100px;
+    width:100%;
+    margin-left: 1%;
+}
+.NavBar {
+    background: url(/src/images/deco-MDC-Comics/bandeau-degrader.jpg);
+    background-size:cover;
+}
+
+#navbarNav {
+    margin-right: 5rem;
+   
+}
+/* BTN NavBar */
+.login {
+    display: flex;
+    align-items: center; 
+     
+}
+
+.btn-login {
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Avengers;
+    font-size: 30px;
+    align-items: center;  
+}
+.nav-link {
+    color: white;
+    font-family: Avengers;
+    font-size: 25px;
+    padding: 20px;
+    align-items: center; 
+}
+.DCheader a:hover {
+    color: rgb(33, 93, 163); 
+}
+.MARVELheader a:hover {
+    color: rgb(203, 1, 1); 
+}
+.BTNheader a:hover {
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 40%,rgb(33, 93, 163) 60%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+.collapse a {
+font-size: 30px;
+line-height: 30px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+#navbarNav :not(:first-child) {
+border-left:  1px solid rgb(255, 255, 255);
+}
+/* Hamburger NavBar */
+.navbar-toggler {
+    border-color:  rgb(203, 1, 1);
+}
+.navbar-toggler-icon {
+    background-image:url(/src/images/deco-MDC-Comics/logo-MDC-Comics.png);
+}
+
+/* MAIN */
+/* HISTOIRE UNIVERS COMICS */
+.hist-marvel img {
+    width: 250px;
+    height: 200px;
+}
+.hist-dc-comics img {
+    width: 250px;
+    height: 200px;
+}
+.Marvel {
+    margin: 2rem;
+    font-family: Shield;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(rgb(203, 1, 1),rgb(140, 140, 140));
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.Marvel:hover {
+    color: rgb(203, 1, 1);
+}
+.DC {
+    margin: 2rem;
+    font-family: Shield;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(hwb(0 0% 100%),rgb(33, 93, 163));
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.DC:hover {  
+    color: rgb(33, 93, 163);
+}

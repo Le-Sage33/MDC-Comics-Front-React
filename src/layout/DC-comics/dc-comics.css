@@ -1,0 +1,29 @@
+
+
+header {
+    margin-bottom: 220px;
+}
+.DC {
+    margin: 2rem;
+    font-family: Shield;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(hwb(0 0% 100%),rgb(33, 93, 163));
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.DC:hover {  
+    color: rgb(33, 93, 163);
+}
+/* Univers DC Comics */
+.dc-comics img {
+    height: 250px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.hist-dc-comics img {
+    width: 250px;
+    height: 200px;
+}

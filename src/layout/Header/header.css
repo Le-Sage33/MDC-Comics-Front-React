@@ -1,0 +1,67 @@
+
+
+header {
+    margin-bottom: 200px;
+}
+.logo-header-user img {
+    height: 100px;
+    width: 100px;
+    margin-left: 5vh;
+}
+.logo-header-user {
+   display: flex;
+   justify-content: center;
+   background-color: rgb(255, 255, 255);  
+}
+.NavBar {
+    background: url(/src/images/deco-MDC-Comics/bandeau-degrader.jpg);
+    background-size:cover;
+}
+
+#navbarNav {
+    margin-right: 5rem;
+   
+}
+/* BTN NavBar */
+.login {
+    display: flex;
+    align-items: center;  
+}
+
+.btn-login {
+    margin-top: auto;
+    color: white;
+    font-family: Avengers;
+    font-size: 30px;
+   ;
+}
+.nav-link {
+    color: white;
+    font-family: Avengers;
+    font-size: 25px;
+    padding: 20px;
+    align-items: center; 
+}
+.DCheader a:hover {
+    color: rgb(33, 93, 163); 
+}
+.MARVELheader a:hover {
+    color: rgb(203, 1, 1); 
+}
+.BTNheader a:hover {
+    background:-webkit-linear-gradient(top,rgb(203, 1, 1) 40%,rgb(33, 93, 163) 60%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+#navbarNav :not(:first-child) {
+border-left:  1px solid rgb(255, 255, 255);
+}
+/* Hamburger NavBar */
+.navbar-toggler {
+    border-color:  rgb(203, 1, 1);
+}
+.navbar-toggler-icon {
+    background-image:url(/src/images/deco-MDC-Comics/logo-MDC-Comics.png);
+}

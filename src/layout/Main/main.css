@@ -1,0 +1,19 @@
+
+/* Carousel */
+.carousel-inner {
+    margin-top: 10px;
+    background-color: white;
+}
+.carousel-item {
+   max-height: 700px;
+}
+/* HISTOIRE UNIVERS COMICS */
+.hist-marvel img {
+    width: 250px;
+    height: 200px;
+}
+.hist-dc-comics img {
+    width: 250px;
+    height: 200px;
+}
+

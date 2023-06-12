@@ -1,0 +1,54 @@
+footer {
+    display: flex ;
+    background: url(/src/images/deco-MDC-Comics/bandeau-degrader.jpg);
+    background-size: cover;
+    list-style: none;
+    align-items: center;
+}
+footer p {
+    color: white;
+    font-family: Shield;
+}
+.MDC_comics {
+   
+    align-items: center;
+    margin: 2rem;
+}
+.logo img{
+    height: 5rem;
+    width: 5rem;
+}
+.prestations {
+    font-size: 25px;
+}
+
+.contact {
+    font-size: 25px;
+    border-left: solid 1px white;
+    padding-left: 1rem;
+   
+}
+.contact img {
+    display: inline;
+    justify-content: left;
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+}
+.CGV {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.CGV p {
+    margin-right: 10px;
+}
+.CGV li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: Shield;
+}
+.CGV a:hover {
+    color: rgb(33, 93, 163);
+}
